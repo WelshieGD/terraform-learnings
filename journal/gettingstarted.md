@@ -33,3 +33,10 @@ The default value is /usr/local/bin
 ```
 aws --version
 ```
+
+## Configure
+```
+aws configure
+
+aws sts get-caller-identity
+```
