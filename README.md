@@ -6,5 +6,5 @@
 
 # git learning
 
-[Getting Started]
+[Getting Started](https://github.com/WelshieGD/terraform-learnings/blob/main/gitgettingstarted/authentication.md)
 
