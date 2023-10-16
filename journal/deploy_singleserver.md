@@ -40,13 +40,52 @@ resource "aws_instance" "app_server" {
 }
 
 ```
+## Terraform Commands
+### Terraform init
+Initializing a configuration directory downloads and installs the providers defined in the configuration, which in this case is the aws provider.
 
-                   
-## AWS Options
-### Terminology
+### Terraform fmt
+sudo terraform fmt on Linux
+Automatically updates configurations in the current directory for readability and consistency.
+It will output names of files changed (no output = no files changed).
 
-[ami](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AMIs.html)
-                             
-[instance_type] = (https://aws.amazon.com/ec2/instance-types/)
-- Amazon EC2 provides a wide selection of instance types optimized to fit different use cases. Instance types comprise varying combinations of CPU, memory, storage, and networking capacity and give you the flexibility to choose the appropriate mix of resources for your applications. Each instance type includes one or more instance sizes, allowing you to scale your resources to the requirements of your target workload.
-                 
+### Terraform validate
+Validates your configuration.
+
+### Terraform plan
+Prints out the execution plan which describes the actions Terraform will take in order to change your infrastructure to match the configuration.
+
+### Terraform apply
+Applies execution plan.
+
+## Terraform folders and files
+
+![TerraformFiles](https://github.com/WelshieGD/terraform-learnings/assets/120795390/dc04e379-39b5-4400-8471-8d581ea368bf)
+
+.terraform folder - provider code is buried deep in here
+
+## Git Ignore
+
+### Local .terraform directories
+**/.terraform/*
+
+### .tfstate files
+*.tfstate
+*.tfstate.*
+
+### Crash log files
+crash.log
+crash.*.log
+
+### Exclude all .tfvars files, 
+These are likely to contain sensitive data, such aspassword, private keys, and other secrets. 
+These should not be part of version control as they are data points which are potentially sensitive and subject 
+to change depending on the environment.
+*.tfvars
+*.tfvars.json
+
+### Ignore override files as they are usually used to override resources locally and so are not checked in
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
