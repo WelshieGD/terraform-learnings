@@ -23,7 +23,12 @@ provider "aws" {
 }
 /*
 Use resource blocks to define components of your infrastructure.
-Resource blocks have two strings before the block: the resource type and the resource name. In this example, the resource type is aws_instance and the name is app_server. The prefix ofhe type maps to the name of the provider. In the example configuration, Terraform manages the aws_instance resource with the aws provider. Together, the resource type and resource name form a unique ID for the resource. For example, the ID for your EC2 instance is aws_instance.app_server
+Resource blocks have two strings before the block: the resource type and the resource name.
+In this example, the resource type is aws_instance and the name is app_server.
+The prefix ofhe type maps to the name of the provider.
+In the example configuration, Terraform manages the aws_instance resource with the aws provider.
+Together, the resource type and resource name form a unique ID for the resource.
+For example, the ID for your EC2 instance is aws_instance.app_server
 */
 resource "aws_instance" "app_server" {
   ami           = "ami-830c94e3"
