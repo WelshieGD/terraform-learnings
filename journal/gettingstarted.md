@@ -40,3 +40,6 @@ aws configure
 
 aws sts get-caller-identity
 ```
+[output type](https://docs.aws.amazon.com/cli/latest/userguide/cli-usage-output-format.html)
+
+Stores credentials in ~/.aws/config
