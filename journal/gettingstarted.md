@@ -16,7 +16,7 @@ sudo yum -y install terraform
 
 ```
 touch ~/.bashrc
-terraform -install-autocomplete
+sudo terraform -install-autocomplete
 ```
 
 ## AWS CLI
