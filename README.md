@@ -8,6 +8,10 @@ IAMUser name
 1. Getting Started
 - [Github authentication](https://github.com/WelshieGD/terraform-learnings/blob/main/journal/prep/gitgettingstarted.md)
 
+# Visual Studio Code - Cloud
+
+Press . from GitHub and it will launch VS Code (cloud box)
+
 # terraform-learnings
 
 1. Getting Started
