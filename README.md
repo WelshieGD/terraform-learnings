@@ -1,3 +1,8 @@
+# aws
+Root User Email address
+
+IAMUser name
+
 # terraform-learnings
 
 1. Getting Started
