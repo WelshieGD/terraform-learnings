@@ -1,4 +1,4 @@
-# aws
+# AWS
 Root User Email address
 
 IAMUser name
