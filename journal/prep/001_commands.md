@@ -5,7 +5,8 @@
 
 # Working Tree \ Staging Area  (git index) \ Repository
 
-![](/images/GitFlow.png?raw=true)
+![](images/GitFlow.png?raw=true)
+
 
 ## Working Tree
 Files in working tree are either tracked or untracked 
