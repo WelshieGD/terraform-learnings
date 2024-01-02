@@ -15,3 +15,26 @@ sudo dnf install gh
 ```
 gh auth login
 ```
+
+## Initial Configuration
+
+1. Version
+```
+git --version
+```
+
+2. Global Variables - List
+
+```
+git config --list
+```
+
+3. Global Variables - User Name
+```
+git config --global user.name "WelshieGD"
+```
+
+4. Global Variables - Email
+```
+git config --global user.email "graham@grahamdavies.info"
+```
