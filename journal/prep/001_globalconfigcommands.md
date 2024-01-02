@@ -5,7 +5,7 @@
 
 # Working Tree \ Staging Area  (git index) \ Repository
 
-![](https://github.com/WelshieGD/terraform-learnings/blob/main/journal/prep/Images/GitFlow.png)
+![](../Images/GitFlow.png?raw=true)
 
 
 ## Working Tree
