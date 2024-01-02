@@ -5,6 +5,8 @@
 
 # Working Tree \ Staging Area  (git index) \ Repository
 
+(/images/GitFlow.png)
+
 ## Working Tree
 Files in working tree are either tracked or untracked 
 - Tracked Files = in last snapshot or newly staged files. 
