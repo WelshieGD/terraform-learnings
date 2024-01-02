@@ -9,13 +9,61 @@ Git defaults to a new branch called master when initialising a repository. We ca
 git init -b main
 ```
 
-2. This creates a .git folder 
-We'll look at this later.
+# Initial Configuration
 
-![Alt text](GitHidden.png)
+1. Version
+```
+git --version
+```
+
+2. Global Variables - List
+
+```
+git config --list
+```
+
+3. Global Variables - User Name
+```
+git config --global user.name "WelshieGD"
+```
+
+4. Global Variables - Email
+```
+git config --global user.email "graham@grahamdavies.info"
+```
+
+# git status \ git add \ git commit \ git log
+[Microsoft Learn](https://learn.microsoft.com/en-us/training/modules/create-git-project/2-exercise-start-project)
+
+```
+touch index.html
+
+git status
+
+git add .
+
+git commit index.html -m "Create an empty index.html file"
+
+git log
+
+- Shows commit GUID (HEAD -> main)
+
+```
+
+# Update index html
+
+```
+git status
+
+git add index.html
+
+git commit index.html -m "Add a heading to index.html"
+
+git log
+
+
 
 # Branches
-Default branch is main
 
 ## New Feature branch
 Make changes to an existing feature or add a feature. 
