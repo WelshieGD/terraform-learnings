@@ -9,3 +9,4 @@ git init -b main
 
 2. This creates a .git folder 
 
+![Alt text](GitHidden.png)
