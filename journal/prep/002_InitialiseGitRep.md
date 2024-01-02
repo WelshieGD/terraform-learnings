@@ -50,16 +50,17 @@ git log
 
 ```
 
-# Update index html
+# Update index html \ git diff
 
 ```
-git status
+git diff
+- Show differences between working tree and index = all the changes that haven't been staged (added to Git's index):
+  - + sign next to additions
+  - - sign next to deletions
 
 git add index.html
 
 git commit index.html -m "Add a heading to index.html"
-
-git log
 
 
 
