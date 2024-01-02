@@ -64,15 +64,4 @@ git commit index.html -m "Add a heading to index.html"
 
 
 
-# Branches
-
-## New Feature branch
-Make changes to an existing feature or add a feature. 
-
-```
-git branch Jira123
-
-git checkout Jira 123
-
-```
 
