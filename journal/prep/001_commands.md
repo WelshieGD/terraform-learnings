@@ -5,7 +5,7 @@
 
 # Working Tree \ Staging Area  (git index) \ Repository
 
-![](/../images/GitFlow.png?raw=true)
+![](/../Images/GitFlow.png?raw=true)
 
 
 ## Working Tree
