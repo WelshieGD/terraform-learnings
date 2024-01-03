@@ -32,6 +32,10 @@ git config --global user.name "WelshieGD"
 git config --global user.email "graham@grahamdavies.info"
 ```
 
+# Useful files to create in each repository
+
+![](https://github.com/WelshieGD/terraform-learnings/blob/main/Git/Images/Files.png)
+
 # git status \ git add \ git commit \ git log
 [Microsoft Learn](https://learn.microsoft.com/en-us/training/modules/create-git-project/2-exercise-start-project)
 
