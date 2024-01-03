@@ -65,3 +65,20 @@ git log --oneline
 Returns:
 >b53cb90 (HEAD -> main) First line of Code
 >5fd1a42 (origin/main, origin/HEAD) Initial commit
+
+
+## Git Push
+
+```
+git push
+```
+
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 299 bytes | 299.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/WelshieGD/MyTestRepository.git
+   5fd1a42..b53cb90  main -> main
