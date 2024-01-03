@@ -8,6 +8,8 @@ Developers working on independent branches is a common concept in modern softwar
 ## Feature Branch
 Create a new branch for a specific feature and develop it -> merge back to main when complete. 
 
+E.g. on Main. Create a feature branch, creates a new branch based on the HEAD commit of main at the time. It isn't aware of any commits to main since then. Changes made on the feature branch could overwrite changes made to main since the feature branch was created which would create a merge conflict when the feature branch is merged back into main at a later date.
+
 # Process
 
 ## Create new branch and move to that branch

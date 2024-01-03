@@ -1,0 +1,7 @@
+# Merge Conflicts
+
+Two developers change the same code and then try to merge --> Merge conflict.
+
+## Avoiding
+Pull early and pull often. Won't necessarily avoid a conflict but will identify sooner which makes then generally easier to resolve.
+
