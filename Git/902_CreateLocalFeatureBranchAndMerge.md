@@ -11,6 +11,6 @@ git checkout -b Feature123
 git branch
 ```
 
-> \* $${\color{green}WelcomeFeature123$$
+> \* $${\color{green}WelcomeFeature123}$$
 
 > main
