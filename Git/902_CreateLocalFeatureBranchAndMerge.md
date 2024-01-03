@@ -119,3 +119,11 @@ git push origin main
 > To https://github.com/WelshieGD/MyTestRepository.git
 
 > b53cb90..a711d5b  main -> main
+
+
+```
+git tag feature123
+
+git push --tags
+
+```
