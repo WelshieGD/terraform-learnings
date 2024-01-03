@@ -13,3 +13,8 @@ git log --oneline
 ```
 git log -n5 
 ```
+
+
+```
+git log --all --graph
+```
