@@ -39,3 +39,29 @@ Returns:
 >        newfile.log
 >
 > nothing added to commit but untracked files present (use "git add" to track)
+
+## Git Add
+
+```
+git add .
+```
+
+## Git Commit
+```
+git commit -m "First line of code"
+
+git status
+
+```
+
+Returns:
+>[main b53cb90] First line of Code
+> 1 file changed, 1 insertion(+)
+> create mode 100644 newfile.log
+
+```
+git log --oneline
+```
+Returns:
+>b53cb90 (HEAD -> main) First line of Code
+>5fd1a42 (origin/main, origin/HEAD) Initial commit
