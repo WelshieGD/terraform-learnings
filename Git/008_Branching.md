@@ -31,9 +31,19 @@ The most common use of compare is to compare branches, such as when you're start
 
 ## Review \ Update code in Feature branch following feedback
 
+### Comments
+
+### Suggestions
+
 ## Get Pull Request Approved \ Merge Feature branch into main branch
 
-At some point, each developer's branch needs to be merged into a common branch, like main. As projects scale, there can be many merges that need to happen, and it becomes increasingly important to track and review each merge. Needing to keep track of multiple changes to a project is where pull requests come i
+At some point, each developer's branch needs to be merged into a common branch, like main. As projects scale, there can be many merges that need to happen, and it becomes increasingly important to track and review each merge. 
+
+### Create a merge commit
+Add all of the commits to the base branch.
+
+### Squash and Merge
+Take all of your commits and combine them into one when added to base branch. This option can help you keep your repository history more readable and organized.
 
 ## Delete branch
 
