@@ -40,7 +40,7 @@ git merge --no-ff feature/Jira123_NewServiceMonitor
 
 Note - accept default commit message
 
-![](https://github.com/WelshieGD/terraform-learnings/blob/main/journal/prep/Images/gitlogmergedevelop.png)
+![](https://github.com/WelshieGD/terraform-learnings/blob/main/Git/Images/gitlogmergedevelop.png)
 
 ## Delete Feature branch as it is no longer needed
 
@@ -67,4 +67,4 @@ git log
 
 ```
 
-![](https://github.com/WelshieGD/terraform-learnings/blob/main/journal/prep/Images/gitlogJira124.png)
+![](https://github.com/WelshieGD/terraform-learnings/blob/main/Git/Images/gitlogJira124.png)
