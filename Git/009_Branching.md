@@ -5,6 +5,9 @@ Developers working on independent branches is a common concept in modern softwar
 
 ![](https://github.com/WelshieGD/terraform-learnings/blob/main/Git/Images/PullRequest.png)
 
+## Full walkthrough
+[Atlassian](https://www.atlassian.com/git/tutorials/using-branches/git-merge)
+
 ## Feature Branch
 Create a new branch for a specific feature and develop it -> merge back to main when complete. 
 
