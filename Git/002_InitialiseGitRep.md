@@ -24,12 +24,12 @@ git config --list
 
 3. Global Variables - User Name
 ```
-git config --global user.name "WelshieGD"
+git config --global user.name "*****"
 ```
 
 4. Global Variables - Email
 ```
-git config --global user.email "graham@grahamdavies.info"
+git config --global user.email "*******"
 ```
 
 # Useful files to create in each repository
