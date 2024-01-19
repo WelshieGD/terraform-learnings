@@ -3,6 +3,18 @@
 1. On Linux Box - /home/graham/Documents/Development/MSFTLearn/GitLearning
 - [MSFT Learn](https://learn.microsoft.com/en-gb/training/modules/intro-to-git/)
 
+Initialises current directory as a repository
+```
+git init 
+```
+
+Creates a new directory in the current directory and initialise the new directory as a git repository
+```
+git init 
+```
+
+.git folder determines the directory as a repository
+
 Git defaults to a new branch called master when initialising a repository. We can change this to main as follows:
 
 ```
